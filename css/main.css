@@ -1,0 +1,679 @@
+@charset "utf-8";
+
+main {
+    overflow: hidden;
+    clear: both;
+}
+
+header .gnb a {
+    color: #8C5B3F;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+}
+#intro {
+    height: 950px;
+    background-color: rgb(238, 238, 238);
+    background-image: url("../image/back.png");
+    position: relative;
+}
+#intro h2 {
+    position: absolute;
+    top: 300px;
+    left: 520px;
+   
+
+}
+
+#intro h3 {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+    font-size: 2rem;
+    color: #B787BC;
+}
+#intro p {
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    font-size: 2rem;
+    color: #B787BC;
+}
+/* about 영역 */
+
+#about .pg1 {
+    background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+.pg1 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg1 .p1 {
+    color: #666;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    font-size: 25px;
+}
+.pg1 .p2 {
+    color: #666;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-size: 16px;
+}
+.pg1 .p3 {
+    color: #666;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    font-size: 16px;
+}
+.pg1 h3 {
+    color: #8C5B3F;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    font-weight: bold;
+}
+.pg1 .name {
+    position: absolute;
+    top: 470px;
+    left: 200px;
+}
+.pg1 .name p {
+    line-height: 60px;
+    font-size: 25px;
+    color: #666;
+}
+
+.pg1 .p4 {
+    color: #8C5B3F;
+    position: absolute;
+    bottom: 450px;
+    left: 600px;
+    font-size: 25px;
+}
+.pg1 .sk01 {
+    position: absolute;
+    bottom: 350px;
+    left: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pg1 .sk02 {
+    position: absolute;
+    bottom: 250px;
+    left: 615px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 프로필서식 */
+.pg1 .p_box {
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+.pg1 img {
+
+    width: 200px;
+}
+.sk01 li span,
+.sk02 li span {
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(146, 146, 146);
+}
+.sk01 img {
+    margin-right: 5px;
+}
+.sk02 img {
+    margin-right: 8px;
+}
+.sk01 li {
+    margin-right: 10px;
+}
+.sk02 li {
+    margin-right: 13px;
+}
+
+.pg1 .sk01 li:first-child img {
+    width: 60px;
+    height: 55px;
+}
+.pg1 .sk01 li:nth-child(2) img {
+    width: 40px;
+    height: 55px;
+}
+.pg1 .sk01 li:nth-child(3) img {
+    width: 40px;
+    height: 50px;
+}
+.pg1 .sk02 li:nth-child(1) img {
+    width: 40px;
+    height: 40px;
+}
+.pg1 .sk02 li:nth-child(2) img {
+    width: 40px;
+    height: 40px;
+}
+.pg1 .sk02 li:last-child img {
+    width: 40px;
+    height: 40px;
+}
+
+.pg2 {background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+.pg2 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg2 img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.pg2 ul li:first-child .co01 {
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+.pg2 ul li:first-child .img01 {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    width: 30px;
+    height: 30px;
+
+    background-color: #B787BC;
+}
+.pg2 ul li:first-child .let01 {
+    position: absolute;
+    top: 260px;
+    left: 550px;
+    line-height: 16px;
+    color: #666;
+}
+.pg2 ul li:first-child .let02 {
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+.pg2 ul li:nth-child(2) .let03 {
+    position: absolute;
+    top: 440px;
+    left: 500px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+.pg2 ul li:nth-child(2) .img02 {
+    position: absolute;
+    top: 410px;
+    left: 500px;
+    width: 30px;
+    height: 30px;
+
+    background-color: #8C5B3F;
+}
+
+.pg2 ul li:nth-child(2) .let04 {
+    position: absolute;
+    top: 395px;
+    left: 550px;
+    line-height: 16px;
+    color: #666;
+}
+
+.pg2 ul li:nth-child(3) .let06 {
+    position: absolute;
+    top: 440px;
+    left: 700px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.pg2 ul li:nth-child(3) .img03 {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    width: 30px;
+    height: 30px;
+
+    background-color: #D9BC9A;
+}
+.pg2 ul li:nth-child(3) .let07 {
+    position: absolute;
+    top: 395px;
+    left: 750px;
+    line-height: 16px;
+    color: #666;
+}
+
+.pg2 ul li:nth-child(4) .let08 {
+    position: absolute;
+    top: 440px;
+    left: 900px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.pg2 ul li:nth-child(4) .img04 {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 30px;
+    height: 30px;
+
+    background-color: #F2E6D0;
+}
+.pg2 ul li:nth-child(4) .let09 {
+    position: absolute;
+    top: 395px;
+    left: 950px;
+    line-height: 16px;
+    color: #666;
+}
+.pg2 .name01 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+    line-height: 30px;
+    color: #666;
+}
+.pg2 .name02 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+    line-height: 30px;
+    color: #666;
+}
+
+/*03 projectA*/
+.pg3 {background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+
+.pg3 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg3 .ui01 {
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    cursor: pointer;
+}
+.pg3 .ch05 {
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    background-color: #666;
+}
+
+.pg3 .ui02 {
+    width: 235px;
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    cursor: pointer;
+}
+.pg3 .ui03 {
+    width: 235px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    cursor: pointer;
+}
+.pg3 ul li img {
+    cursor: pointer;
+    width: 80px;
+    height: 170px;
+}
+.pg3 ul li {
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.pg3 ul {
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    left: 720px;
+    width: 450px;
+    flex-wrap: wrap;
+}
+.pg3 .ch01 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 25px;
+    color: #666;
+    font-weight: bold;
+}
+.pg3 .ch02 {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    font-size: 20px;
+    color: #666;
+}
+.pg3 .ch03 {
+    position: absolute;
+    top: 240px;
+    left: 750px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+}
+.pg3 .ch04 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+    color: #666;
+}
+
+/*04 project B*/
+.pg4 {background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+.pg4 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg4 .b01 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+    font-weight: bold;
+}
+.pg4 .b02 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+}
+.pg4 .b02 dt{margin: 10px 0px;
+font-weight: bold;}
+.pg4 .b02 dd{
+    text-indent: 50px;
+    font-size: 16px;}
+.pg4 a {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 280px;
+    right: 140px;
+    text-align: center;
+    padding: 3px;
+    line-height: 30px;
+    background-color: #666;
+    color: #fff;
+}
+.pg4 img {
+    width: 490px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+/*05 project C*/
+.pg5 {background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+.pg5 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg5 .c01 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+    font-weight: bold;
+}
+.pg5 .c02 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+}
+.pg5 .c02 dt{margin: 10px 0px;
+    font-weight: bold;}
+.pg5 .c02 dd{
+        text-indent: 50px;
+        font-size: 16px;}
+.pg5 a {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+
+    position: absolute;
+    bottom: 270px;
+    right: 150px;
+    text-align: center;
+    padding: 3px;
+    line-height: 30px;
+    background-color: #666;
+    color: #fff;
+}
+.pg5 img {
+    width: 490px;
+    height: 350px;
+
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+/*06 project D*/
+.pg6 {background-image: url(../image/sub-back.png);
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+.pg6 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight: bold;
+}
+.pg6 .d01 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+    font-weight: bold;
+}
+.pg6 .d02 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+}
+.pg6 .d02 dt{margin: 10px 0px;
+    font-weight: bold;}
+.pg6 .d02 dd{
+        text-indent: 50px;
+        font-size: 16px;}
+
+
+.pg6 a {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 280px;
+    right: 150px;
+    text-align: center;
+    padding: 3px;
+    line-height: 30px;
+    background-color: #666;
+    color: #fff;
+}
+.pg6 img {
+    width: 490px;
+    height: 350px;
+
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+/*푸터영역*/
+#footer{background-image: url(../image/e-back.png);}
+.ft01 {
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.ft01 h3{
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: #8C5B3F;
+    font-weight:bold;}
+.ft01 .song{
+    font-family: "Nanum Pen Script";
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #8C5B3F;
+    border:5px solid #b359bd;
+    background-color: #fff;
+    padding: 20px;
+}
+.ft01 .la01 {
+    font-size: 16px;
+    position: absolute;
+    top: 130px;
+    left: 13%;
+    line-height: 30px;
+    color: #666;
+    font-weight: bold;
+}
+
+.ft01 a {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 43px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    color:#fff;
+    background-color: #666;
+    position: absolute;
+    bottom: 200px;
+    right: -150px;
+    transition: 0.8s;
+}
+footer {
+    position: relative;
+}
+footer address {
+    position: absolute;
+    right: 400px;
+    font-size: 16px;
+    color: #666;
+}
