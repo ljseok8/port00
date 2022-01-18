@@ -134,16 +134,19 @@ $(this).removeClass('act');
 
 });
 
+//푸터 song 애니메이션
+function ani02() {
+  $('#footer .ft01 .song').animate({
+    "top": "140px"
+  }, 1000).animate({
+    "top": "170px"
+  }, 1000);
+}
 
+ani02();
 
-
-
-});
-
-
-//2번째 스크립트
-
-$(function () {
+let Time = setInterval(ani02, 2000);
+ 
 
   //헤더 arctic_scroll 서식
 
@@ -151,8 +154,10 @@ $(function () {
     speed: 800
   });
 
+
+ //첫페이지 글자 애니메이션
   function ani() {
-    //첫페이지 글자 애니메이션
+  
     $('#intro h2').animate({
       "top": "270px"
     }, 1500).animate({
@@ -162,23 +167,15 @@ $(function () {
 
   ani();
 
-  let Timer = setInterval(ani, 3000);
+  let times = setInterval(ani, 3000);
+
+
+
+
+
+
+
 
 });
 
-//3번째 스크립트
-$(function () {
 
-  //푸터 글자 애니메이션
-  function ani02() {
-     $('#footer .ft01 .song').animate({
-       "top": "140px"
-     }, 1000).animate({
-       "top": "170px"
-     }, 1000);
-   }
-
-   ani02();
-
-   let Timer = setInterval(ani02, 2000);
- });
